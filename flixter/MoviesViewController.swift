@@ -34,13 +34,6 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
             print(dataDictionary)
             self.movies=dataDictionary["results"] as! [[String:Any]]
             self.tableView.reloadData()
-           // print(dataDictionary)
-            
-
-              // TODO: Get the array of movies
-              // TODO: Store the movies in a property to use elsewhere
-              // TODO: Reload your table view data
-
            }
         }
         task.resume()
@@ -66,7 +59,7 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
         let posterURL = URL(string: baseURL + posterPath)!
         
         
-        cell.posterView.af_setImage(withURL: posterURL)
+        cell.posterView.af.setImage(withURL: posterURL)
         return cell
     }
     func tableView(_tableView: UITableView, didSelectRowAt indexPath: IndexPath){
