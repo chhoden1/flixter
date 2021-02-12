@@ -4,7 +4,6 @@
 //
 //  Created by Chhoden Sherpa on 2/4/21.
 //
-
 import UIKit
 import AlamofireImage
 
@@ -68,7 +67,6 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
 
     /*
     // MARK: - Navigation
-
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destination.
