@@ -40,7 +40,7 @@
 
 /* Begin PBXFileReference section */
 		0EE4FFEB3B4745456B68CD3B /* Pods-flixter-flixterUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flixter-flixterUITests.release.xcconfig"; path = "Target Support Files/Pods-flixter-flixterUITests/Pods-flixter-flixterUITests.release.xcconfig"; sourceTree = "<group>"; };
-		0F51B64725C8B42C00FC3831 /* flixter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flixter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F51B64725C8B42C00FC3831 /* flix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F51B64A25C8B42C00FC3831 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0F51B64C25C8B42C00FC3831 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		0F51B65125C8B42C00FC3831 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -108,7 +108,7 @@
 		0F51B64825C8B42C00FC3831 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0F51B64725C8B42C00FC3831 /* flixter.app */,
+				0F51B64725C8B42C00FC3831 /* flix.app */,
 				0F51B65D25C8B43100FC3831 /* flixterTests.xctest */,
 				0F51B66825C8B43100FC3831 /* flixterUITests.xctest */,
 			);
@@ -174,9 +174,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0F51B64625C8B42C00FC3831 /* flixter */ = {
+		0F51B64625C8B42C00FC3831 /* flix */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0F51B67125C8B43100FC3831 /* Build configuration list for PBXNativeTarget "flixter" */;
+			buildConfigurationList = 0F51B67125C8B43100FC3831 /* Build configuration list for PBXNativeTarget "flix" */;
 			buildPhases = (
 				8BB29F5F16570FAD91180B54 /* [CP] Check Pods Manifest.lock */,
 				0F51B64325C8B42C00FC3831 /* Sources */,
@@ -188,9 +188,9 @@
 			);
 			dependencies = (
 			);
-			name = flixter;
+			name = flix;
 			productName = flixter;
-			productReference = 0F51B64725C8B42C00FC3831 /* flixter.app */;
+			productReference = 0F51B64725C8B42C00FC3831 /* flix.app */;
 			productType = "com.apple.product-type.application";
 		};
 		0F51B65C25C8B43100FC3831 /* flixterTests */ = {
@@ -267,7 +267,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0F51B64625C8B42C00FC3831 /* flixter */,
+				0F51B64625C8B42C00FC3831 /* flix */,
 				0F51B65C25C8B43100FC3831 /* flixterTests */,
 				0F51B66725C8B43100FC3831 /* flixterUITests */,
 			);
@@ -437,12 +437,12 @@
 /* Begin PBXTargetDependency section */
 		0F51B65F25C8B43100FC3831 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0F51B64625C8B42C00FC3831 /* flixter */;
+			target = 0F51B64625C8B42C00FC3831 /* flix */;
 			targetProxy = 0F51B65E25C8B43100FC3831 /* PBXContainerItemProxy */;
 		};
 		0F51B66A25C8B43100FC3831 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0F51B64625C8B42C00FC3831 /* flixter */;
+			target = 0F51B64625C8B42C00FC3831 /* flix */;
 			targetProxy = 0F51B66925C8B43100FC3831 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -719,7 +719,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0F51B67125C8B43100FC3831 /* Build configuration list for PBXNativeTarget "flixter" */ = {
+		0F51B67125C8B43100FC3831 /* Build configuration list for PBXNativeTarget "flix" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0F51B67225C8B43100FC3831 /* Debug */,
