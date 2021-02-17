@@ -30,7 +30,7 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
               print(error.localizedDescription)
            } else if let data = data {
               let dataDictionary = try! JSONSerialization.jsonObject(with: data, options: []) as! [String: Any]
-            print(dataDictionary)
+           // print(dataDictionary)
             self.movies=dataDictionary["results"] as! [[String:Any]]
             self.tableView.reloadData()
            }
@@ -65,13 +65,27 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
         tableView.deselectRow(at: indexPath, animated: true)
     }
 
-    /*
     // MARK: - Navigation
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
+     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
+        
+       //  Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
+        print("Loading up the details screen")
+        
+        // Find the selected movie
+        let cell = sender as! UITableViewCell
+        let indexPath = tableView.indexPath(for:cell)!
+        let movie = movies[indexPath.row]
+        
+        
+        // Pass the selected movie to the details view controller
+        let detailsViewController = segue.destination as! MovieDetailsViewController
+        detailsViewController.movie=movie
+        
+        tableView.deselectRow(at: indexPath, animated: true)
+        
     }
-    */
+
 
 }
