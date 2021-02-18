@@ -32,6 +32,7 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
               let dataDictionary = try! JSONSerialization.jsonObject(with: data, options: []) as! [String: Any]
            // print(dataDictionary)
             self.movies=dataDictionary["results"] as! [[String:Any]]
+           
             self.tableView.reloadData()
            }
         }
