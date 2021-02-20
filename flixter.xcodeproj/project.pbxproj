@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0F1156A325DFAB01007FEDFC /* MoviesDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1156A225DFAB01007FEDFC /* MoviesDetailsViewController.swift */; };
 		0F51B64B25C8B42C00FC3831 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F51B64A25C8B42C00FC3831 /* AppDelegate.swift */; };
 		0F51B64D25C8B42C00FC3831 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F51B64C25C8B42C00FC3831 /* SceneDelegate.swift */; };
 		0F51B65225C8B42C00FC3831 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F51B65025C8B42C00FC3831 /* Main.storyboard */; };
@@ -44,7 +43,6 @@
 
 /* Begin PBXFileReference section */
 		0EE4FFEB3B4745456B68CD3B /* Pods-flixter-flixterUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flixter-flixterUITests.release.xcconfig"; path = "Target Support Files/Pods-flixter-flixterUITests/Pods-flixter-flixterUITests.release.xcconfig"; sourceTree = "<group>"; };
-		0F1156A225DFAB01007FEDFC /* MoviesDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesDetailsViewController.swift; sourceTree = "<group>"; };
 		0F51B64725C8B42C00FC3831 /* flix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F51B64A25C8B42C00FC3831 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0F51B64C25C8B42C00FC3831 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -137,7 +135,6 @@
 				0FA653EF25DCDEB00084EDE3 /* MovieDetailsViewController.swift */,
 				0FA4CD8C25DE4BAB00F2C5CE /* MovieGridViewController.swift */,
 				0FA4CD9125DE50C500F2C5CE /* MovieGridCell.swift */,
-				0F1156A225DFAB01007FEDFC /* MoviesDetailsViewController.swift */,
 			);
 			path = flixter;
 			sourceTree = "<group>";
@@ -425,7 +422,6 @@
 				0F51B64B25C8B42C00FC3831 /* AppDelegate.swift in Sources */,
 				0F51B64D25C8B42C00FC3831 /* SceneDelegate.swift in Sources */,
 				0F6C663E25CE652F001E0CDE /* MovieCell.swift in Sources */,
-				0F1156A325DFAB01007FEDFC /* MoviesDetailsViewController.swift in Sources */,
 				0F6A295325CD1F3900E0A2FB /* MoviesViewController.swift in Sources */,
 				0FA4CD8D25DE4BAB00F2C5CE /* MovieGridViewController.swift in Sources */,
 				0FA4CD9225DE50C500F2C5CE /* MovieGridCell.swift in Sources */,
