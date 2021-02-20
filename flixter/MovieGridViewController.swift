@@ -77,4 +77,17 @@ class MovieGridViewController: UIViewController, UICollectionViewDataSource, UIC
     }
     */
 
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        print("Loading up the details screen")
+        
+        // Find the selected movie
+        let cell = sender as! UICollectionViewCell
+        let indexPath = collectionView.indexPath(for:cell)!
+        let movie = movies[indexPath.row]
+        
+        
+        // Pass the selected movie to the details view controller
+        let detailsViewController = segue.destination as! MovieDetailsViewController
+        detailsViewController.movie=movie
+        }
 }
